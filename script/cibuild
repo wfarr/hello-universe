@@ -1,0 +1,7 @@
+#!/bin/sh
+
+export RACK_ENV=test
+
+script/bootstrap
+
+ruby -I$(pwd) app_test.rb
