@@ -2,7 +2,7 @@
 
 
 cd $(dirname $0)/..
-source /app/.profile
+. /app/.profile
 
 export RACK_ENV=test
 

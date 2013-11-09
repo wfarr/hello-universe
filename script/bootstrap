@@ -1,6 +1,6 @@
 #!/bin/sh
 
 cd $(dirname $0)/..
-source /app/.profile
+. /app/.profile
 
 bundle install --path vendor/gems --binstubs
