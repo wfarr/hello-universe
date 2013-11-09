@@ -1,5 +1,9 @@
 #!/bin/sh
 
+
+cd $(dirname $0)/..
+. .profile
+
 export RACK_ENV=test
 
 script/bootstrap
